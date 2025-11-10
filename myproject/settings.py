@@ -131,4 +131,5 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5182",
     "http://localhost:5183",
     "https://my-django-api-a5qf.onrender.com",
+    "https://my-django-api.vercel.app",
 ]
