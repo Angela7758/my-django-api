@@ -125,10 +125,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5176",
-    "http://localhost:5177",
-    "http://localhost:5178",
     "http://localhost:5179",
     "http://localhost:5180",
     "http://localhost:5181",
+    "http://localhost:5182",
+    "http://localhost:5183",
+    "https://my-django-api-a5qf.onrender.com",
 ]
