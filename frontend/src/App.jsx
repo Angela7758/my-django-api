@@ -1,20 +1,17 @@
 import { useEffect, useState } from "react";
+import apiClient from "./api/apiClient";
 
 function App() {
   const [message, setMessage] = useState("Connexion au backend en cours...");
 
   useEffect(() => {
-    const url = import.meta.env.VITE_API_URL;
-    console.log("VITE_API_URL =", url);
-
-    fetch(url)
+    apiClient
+      .get("/")   
       .then((res) => {
-        console.log("Réponse du backend :", res.status);
         setMessage(`✅ Code de statut du backend : ${res.status}`);
       })
       .catch((err) => {
-        console.error("Échec de la requête :", err);
-        setMessage(`❌ Échec de la requête : ${err.message}`);
+        setMessage(`❌ Erreur : ${err.message}`);
       });
   }, []);
 
