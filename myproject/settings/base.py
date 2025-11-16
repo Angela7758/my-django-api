@@ -134,6 +134,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5184",
     "http://localhost:5185",
     "http://localhost:5186",
+    "http://localhost:5174",
+    "http://localhost:5175",
+    "http://localhost:5176",
+    "http://localhost:5177",
     "https://my-django-api-a5qf.onrender.com",
     "https://my-django-api.vercel.app",
 ]
