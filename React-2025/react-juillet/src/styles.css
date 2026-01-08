@@ -1,0 +1,20 @@
+/* src/styles.css */
+.title {
+  font-size: 50px;
+}
+
+.image {
+  width: 150px;
+  height: auto; /* Pour garder les proportions */
+}
+
+.list {
+  list-style-type: none;
+  padding: 0; /* Optionnel, pour enlever le padding par défaut */
+}
+
+.item {
+  border: 1px blue solid;
+  margin-bottom: 5px; /* Optionnel, pour espacer les items */
+  padding: 5px; /* Optionnel, pour un peu d'espace intérieur */
+}

@@ -1,0 +1,29 @@
+.student{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.list-category{
+font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00ff00;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+
+}
+.list-item li{
+    font-size: 1.1em;
+    color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item li :hover{
+    color: #666;
+    cursor: pointer;  
+} 
